@@ -1,0 +1,516 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+	nav {display: flex;
+		justify-content: space-around;
+		align-items: center;
+	min-height: 8vh;
+font-family: 'Roboto', sans-serif;}
+body {
+	display: block;
+}
+
+.barramenu {position: fixed;
+	background:rgba(255,255,255, 0.9);
+	
+	
+  top: 0;
+  left: 0;
+width: 100%;
+z-index:10}
+
+.items-menu {
+	
+	
+	
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+	list-style: none;
+	
+}
+.items-menu a{
+	color: #041133;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: bold;
+	
+}
+
+.fotoprincipal {position: absolute;
+top:15%;
+left: 10%;
+
+	
+width: 400px;
+height: 550px;
+overflow: hidden;
+border-radius: 10px 10px 10px 10px;
+	
+	
+	
+	
+}
+
+.recorte { position: absolute;
+	left: 0%;
+	
+	height: 552px;
+	
+	
+	
+}
+.fotosbanner img {
+	width: 60px;
+}
+.welcomemessage {
+	position: absolute;
+	top:20%;
+	left: 700px;
+	width: 500px;
+	text-align: justify;
+	font-weight:normal;
+	
+	
+}
+#wm {
+	text-align: center;
+	
+	
+}
+.fotosbanner { 
+position:absolute;
+	TOP:125%;
+	right: 25%;
+	
+}
+
+.contenidos {
+    position: absolute;
+    top: 727px;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.resumencurso {
+	position:absolute;
+	top:10%;
+	left:10%;
+	width: 500px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.resumencurso h2 {
+	text-align: center
+}
+.resumencurso p {
+	padding-top:15px;
+	text-align: justify;
+}
+
+#table {position: absolute;
+	
+	top: 125%;
+  border-collapse: collapse;
+  width: 100%;
+	align-items: stretch;
+	
+}
+
+th{
+	background: #C5C5C5;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+.contenidotextos {
+font-family: "PT Mono", sans-serif;
+	position:absolute;
+	left: 1200px;
+	top: 30%;
+	
+}
+
+#aboutme {
+    position: absolute;
+    top: 1500px;
+    width: 100%;
+    height: 1000px;
+     left: 0px;
+	overflow: hidden;
+	background: #EFEFEF;
+	}
+.tohide{position: absolute;
+	top:20%;
+	right: 15%;
+	width: 500px;
+	font-weight:normal;
+	display: none;
+	font-family: "PT Mono", monospace;
+	
+}
+
+#quijote {
+	text-align: justify
+	
+}
+
+#tema0 {
+	display: block;
+}
+#fotodeportada{
+	position: absolute;
+	top:-285px;
+	left: 15%;
+	
+	
+}
+#table td {
+	cursor: pointer;
+}
+
+#fotoperfil {position: absolute;
+	top: 160px;
+	left: 275px;
+	width: 150px;
+	border-radius: 80px;
+	border: white solid 3px;
+	z-index:8;
+}
+
+#aboutme h3 {
+	position: absolute;
+	
+	top: 250px;
+	left: 430px;
+	font-size: 20px;
+}
+#iframe{position:absolute;
+	top:340px;
+	left: 15%;
+	
+	border: #A3A2A2 solid 1px;
+	width:352px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	padding: 15px;
+	
+	
+	
+	
+}
+#banner{position:absolute;
+	top:278px;
+	left:15%;
+	border: #A3A2A2 solid 1px;
+	border-radius: 0px 0px 5px 5px;
+	border-top: none;
+	width:1000px;
+	height: 45px;
+	background: white;
+	
+	
+	
+}
+
+#info {position: absolute;
+	
+	top: 1px;
+	left: 500px;
+	font-size: 18px;
+	font-family: 'Roboto', Sans-serif;
+	color: black;
+	border-left: gray solid 2px;
+	border-right: gray solid 2px;
+	padding:10px;
+	
+	
+	
+}
+#bio{position: absolute;
+	top: 1px;
+	left: 616px;
+	font-size: 18px;
+	font-family: 'Roboto', Sans-serif;
+	color: #385898;
+	
+	border-right: gray solid 2px;
+	padding:10px;
+	cursor: pointer;
+}
+
+#cabecerapublicacion2{
+	position:absolute;
+	top: 1040px;
+	left: 45%;
+	border: #A3A2A2 solid 1px;
+	border-radius: 5px ;
+	width: 570px;
+	height: 550px;
+	background: white;
+	
+}
+#publicacion1 {position:absolute;
+	top: 340px;
+	left: 45%;
+	border: #A3A2A2 solid 1px;
+	border-radius: 5px ;
+	width: 570px;
+	height: 550px;
+	background: white;
+	
+	
+}
+#cabecerapublicacion1{
+	position: absolute;
+	top:0px;
+	left:0px;
+	
+	width: 570px;
+	height: 60px;
+}
+#minifotoperfil{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 42px;
+	border-radius: 30px;
+	border: gray solid 1px;
+	}
+
+#cabecerapublicacion1 h6 { position:absolute;
+	top: 12px;
+	left: 58px;
+	font-size: 16px;
+	color:#385898;
+	
+}
+#cabecerapublicacion1 p { position:absolute;
+	top: 30px;
+	left:58px;
+	font-size: 12px;
+	color: #616770;
+	
+	
+}
+#coment { position: absolute;
+	left: 10px;
+	top: 70px;
+	
+}
+
+#photo{position: absolute;
+	left:0px;
+	top: 125px;
+	
+	width: 570px;
+	height:350px;
+	
+}
+#minipic{
+	width: 42px;
+	border-radius: 30px;
+	border: gray solid 1px;
+}
+
+#comentinput{position: absolute;
+	top: 490px;
+	left: 10px;
+	
+	}
+#comentario{position: absolute;
+	top: 8px;
+	left:70px;
+	
+	
+}
+
+input {
+	width: 400px;
+  padding: 10px 15px;
+   border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+.bioclass{
+	display:none;
+}
+
+#information{
+	position:absolute;
+	top:340px;
+	left: 15%;
+	
+	border: #A3A2A2 solid 1px;
+	width:1000px;
+	height: 400px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	padding: 15px;
+}
+#infoheader {
+	position: absolute;
+	top:0;
+	left:0;
+	width: 1000px;
+	height: 70px;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-bottom: solid 1px rgb(0,0,0,0.3)
+	}
+
+#infoheader img {position:absolute;
+top: 15px;
+left:15px;}
+#infoheader h2 {position:absolute;
+top: 15px;
+left:50px;
+color: rgb(0,0,0,0.8)
+}
+#navinfo{
+	position: absolute;
+	top:70px;
+	left:0px;
+	width: 333px;
+	height:330px;
+	border-right: solid 1px rgb(0,0,0,0.4);
+}
+
+#navinfo li {
+	
+	list-style: none;
+	color: rgb(0,0,0,0.7);
+	cursor: pointer;
+	padding: 15px 0px 15px 15px;
+}
+#selected{
+	border-left: solid 3px #385898;
+	cursor: none;
+	
+}
+
+#infocontent{
+	position: absolute;
+	top:70px;
+	left:333px;
+	width: 333px;
+	height:330px;
+	border-right: solid 1px rgb(0,0,0,0.4);
+	
+}
+#infocontent ul{position: absolute;
+top:50px;
+left:25px;
+width: 283px;
+border-bottom: solid 1px rgb(0,0,0,0.4); }
+#infocontent li {
+	display: block;
+	border-top: solid 1px rgb(0,0,0,0.3);
+	border-button: solid 1px rgb(0,0,0,0.4);
+	list-style: none;
+	color: black;
+	
+	padding: 15px 0px 15px 15px;
+}
+#infocontent li img{
+	border-radius: 15px;
+}
+
+#contactinfo {
+	position:absolute;
+	top: 100px;
+	left: 750px;
+}
+
+#contactinfo li {
+	
+	list-style: none;
+	color: rgb(0,0,0,0.7);
+	
+	padding: 15px 0px 15px 15px;
+}
+#calculadorafiscal{
+	position:absolute;
+	top:2500px;
+	left:0px;
+	width: 100%;
+	height: 700px;
+	border: black solid 2px;
+	background: #EFEFEF;
+	text-align: center;
+	display: block;
+
+	}
+#calculadorafiscal h1{
+	padding: 30px;
+	
+	
+}
+#datosfactura{
+	padding: 50px;
+	
+}
+#datosfactura input { width: 200px;}
+#datosfactura div {display:inline-block;
+padding: 10px;}
+
+select {
+	width: 200px;
+	height: 30px;
+  padding: 10px 15px;
+   border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+#enviar{
+	
+	background: #7E88F5;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 8px;
+}
+#ringresos{
+	position: absolute;
+	left: 10%
+	
+}
+
+#rgastos{
+	position: absolute;
+	right: 10%;
+	
+}
+
+.display{
+	width: 150px;
+	height: 100px;
+	background: white;
+	border-radius: 20px;
+	display: inline-block;
+	border: solid rgb(0,0,0,0.4) 1px;
+	margin-left: 25px;
+	
+}
+.display h4{
+	padding-top: 10px;
+	
+
+	
+}
+.display p{
+	padding-top: 10px;
+	font-size: 24px;
+	
+	
+} 
+
+
+
+	

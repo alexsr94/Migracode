@@ -1,0 +1,335 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Migracode page</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>        
+<script src="migracode.js"></script>
+
+</head>
+
+<body>
+	<nav class="barramenu">
+		<div class="logo">
+			<img src="https://migracode.openculturalcenter.org/wp-content/uploads/2019/06/cropped-black-1.png" height="50" alt="Migracodelogo">
+		</div>
+		<ul class="items-menu">
+			<li><a href="#inicio">Inicio</a></li>
+			<li><a href="#aboutme">Sobre mi</a></li>
+			<li><a href="#">Calculadora fiscal</a></li>
+			
+			
+		</ul>
+	
+	</nav>
+	<div id="inicio" name="inicio" class="inicio">
+	<div class="fotoprincipal elemento">
+		<img alt="fotoprincipal" class="recorte" src="https://negativespace.co/wp-content/uploads/2017/10/html-code-editor-dark-properties-josborne-thumb-1.jpg">
+	</div>
+	<div class="welcomemessage">
+		<h1 id="wm">WELCOME TO MY WEBSITE</h1>
+		<div class="welcomeph"><h3 ><br>This website has been created with the knowledge acquired in the 'Intro to HTML/CSS' course by Khan Academy in order to be admitted to the Migracode project. <br> <br> This work has 3 sections. In the first part we will see what languages and attributes I have used for the creation of this website. The second part is a presentation and a brief summary of my life. Finally I present a small personal project made with my little knowledge of JavaScript.
+	 </h3>
+		</div>
+		<div class="fotosbanner">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/230px-HTML5_logo_and_wordmark.svg.png" alt="HTMLlogo">
+			<img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png" alt="CSSlogo">
+			<img src="https://i.blogs.es/544e7d/650_1000_javascript_logo/1366_2000.png" alt="JSlogo">
+		</div>
+		
+		
+	</div>
+		
+	
+		
+	
+		</div>
+	<div class="contenidos">
+		<div class="resumencurso"><h2>What I've learnt with Khan Academy</h2>
+		<p>The content of the course has been very useful to remember briefly the most basic elements used in HTML and CSS.
+			I summarize the content in this small table
+			</p>
+
+		<table id="table" class="resumencurso2">
+			<thead>
+				<tr>
+					<th>Intro HTML</th>
+					<th>Intro CSS</th>
+					<th>HTML Tags</th>
+					<th>CSS text properties</th>
+				
+				</tr>
+				
+				<tr>
+					<td onClick="selectdata(tema1.id)">HTML Basics</td>
+					<td onClick="selectdata(tema2.id)">CSS Basics</td>
+					<td onClick="selectdata(tema3.id)">HTML Links</td>
+					<td onClick="selectdata(tema4.id)">CSS font-family property</td>
+				
+				</tr>
+				<tr>
+					<td onClick="selectdata(tema12.id)">HTML Tags</td>
+					<td onClick="selectdata(tema2.id)">CSS: Selecting by tag name</td>
+					<td onClick="selectdata(tema32.id)">HTML internal links</td>
+					<td onClick="selectdata(tema41.id)">CSS font-size property</td>
+				
+				</tr>
+				<tr>
+					<td onClick="selectdata(tema13.id)">Text emphasis</td>
+					<td onClick="selectdata(tema21.id)">CSS: Selecting by id</td>
+					<td onClick="selectdata(tema33.id)">HTML tables</td>
+					<td onClick="selectdata(tema42.id)">CSS font styles and shorthands</td>
+				
+				</tr>
+				<tr>
+					<td onClick="selectdata(tema14.id)">HTML Lists</td>
+					<td onClick="selectdata(tema22.id)">CSS: Selecting by class</td>
+					<td onClick="selectdata(tema34.id)">HTML comments</td>
+					<td onClick="selectdata(tema42.id)">CSS inheritance</td>
+				
+				</tr>
+				<tr>
+					<td onClick="selectdata(tema15.id)">HTML Images</td>
+					
+					
+				
+				</tr>
+			
+			</thead>
+		
+		</table>
+			</div>
+		<div class="contenidotextos" id="contenidos">
+			<div id="tema1" class="tohide">
+			<p><h3><u>HTML BASICS</u></h3><br><br>   &lt;!DOCTYPE html&gt;<br> &lt;html&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;head&gt;<br>
+			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			 &lt;title&gt;HTML basics &lt;/title&gt; <br>&nbsp; &nbsp; &nbsp; &nbsp;
+			 &lt;/head&gt;  <br> &nbsp; &nbsp; &nbsp; &nbsp; &lt;body&gt; <br><br><br> &nbsp; &nbsp; &nbsp; &nbsp;  &lt;/body&gt;  <br>  &lt;/html&gt; </p></div>
+			
+			<div id="tema12" class="tohide">
+				<p> 
+				<h3><u>HTML TAGS</u></h3><br><br> <strong style="color:  blue">&lt;OPNENING TAG&gt;</strong> <em>CONTENT</em> <strong style="color: blue">&lt;/CLOSING TAG&gt;</strong><br><br> <h3><u>EXAMPLES</u></h3><br><strong style="color:  blue">&lt;title&gt;</strong> <em>Migracode Project</em> <strong style="color: blue">&lt;/title&gt;</strong><br><strong style="color:  blue">&lt;h1&gt;</strong> Don Quijote, Primera Parte: Capítulo I <strong style="color: blue">&lt;/h1&gt;</strong><br><strong style="color:  blue">&lt;p&gt;</strong> <p id="quijote">En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos</p> <strong style="color: blue">&lt;/p&gt;</strong>
+			</p>
+			</div>
+	<div id="tema13" class="tohide">
+				<p> 
+				<h3><u>TEXT EMPHASIS</u></h3><br><br> <strong style="color:  blue">&lt;em&gt;</strong> <em>Emphasized text</em> <strong style="color: blue">&lt;/em&gt;</strong><br><br><strong style="color:  blue">&lt;strong&gt;</strong> <strong>IMPORTANT TEXT</strong> <strong style="color: blue">&lt;/strong&gt;</strong><br><br><strong style="color:  blue">&lt;u&gt;</strong> <u>UNDERLINED TEXT</u> <strong style="color: blue">&lt;/u&gt;</strong>
+			</p>
+			</div>
+	<div id="tema14" class="tohide">
+		<p>
+		<h2><u>HTML LISTS</u></h2><br><h2>UNORDERED LISTS</h2><br><br><strong style="color:  blue">&lt;ul&gt;</strong><br>&nbsp;&nbsp;&nbsp;<strong style="color:  blue">&lt;li&gt;</strong>Tomatoes<strong style="color: blue">&lt;/li&gt;</strong><br>&nbsp;&nbsp;&nbsp;<strong style="color:  blue">&lt;li&gt;</strong>Potatoes<strong style="color: blue">&lt;/li&gt;</strong><br>&nbsp;&nbsp;&nbsp;<strong style="color:  blue">&lt;li&gt;</strong>Chocolate<strong style="color: blue">&lt;/li&gt;</strong><br><strong style="color:  blue">&lt;/ul&gt;</strong><br><h2>RESULT</h2><br><br>
+		<ul><li>Tomatoes</li><li>Potatoes</li><li>Chocolate</li></ul>
+		</p>
+		
+		
+		
+	</div>
+<div id="tema15" class="tohide">
+		<p>
+		<h2><u>HTML IMAGES</u></h2><br><strong style="color:  blue">&lt;img</strong> style=<em style="color:green">"margin-top:20px"</em> src=<em style="color:green">"https://s2.latercera.com/wp-content/uploads/2018/12/Tim.jpg"</em> width=<em style="color:green">"400"</em> height=<em style="color:green">"200"</em> alt=<em style="color:green">"Tim Barners-Lee"</em><strong style="color:  blue"> &gt;</strong> 
+		</p>
+		
+		<img style="margin-top:20px" src="https://s2.latercera.com/wp-content/uploads/2018/12/Tim.jpg" alt="Tim Barners-lee" width="400" height="200" >
+		
+	</div>
+<div id="tema2" class="tohide">
+	<h2><u>CSS BASICS</u></h2><br><br><strong style="color:  blue">&lt;style&gt;</strong><br><br>&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:  red">table </strong> { <strong style="color:hotpink">position</strong>:<strong style="color:orange">absolute</strong>;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:hotpink">left</strong>:<strong style="color:orange">10%</strong>;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:hotpink">top</strong>:<strong style="color:orange">30%</strong>;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:hotpink">border-collapse</strong>:<strong style="color:orange">collapse</strong>;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:hotpink">width</strong>:<strong style="color:orange">37%</strong>;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br><strong style="color:  blue">&lt;/style&gt;</strong>
+
+</div>
+<div id="tema21" class="tohide">
+	<h2><u>CSS: Selecting by ID</u></h2><br><br><strong style="color:  blue">&lt;style&gt;</strong><br><br>&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:  cornflowerblue">#quijote </strong> { <strong style="color:hotpink">text-align</strong>:<strong style="color:orange">justify</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br><strong style="color:  blue">&lt;/style&gt;</strong><br><br><h3>ID SELECTOR : "#"</h3><br><br>
+
+</div>
+<div id="tema22" class="tohide">
+	<h2><u>CSS: Selecting by Class</u></h2><br><br><strong style="color:  blue">&lt;style&gt;</strong><br><br>&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:  green">.tohide </strong> { <strong style="color:hotpink">position</strong>:<strong style="color:orange">absolute</strong>;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:hotpink">top</strong>:<strong style="color:orange">20%</strong>;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:hotpink">right</strong>:<strong style="color:orange">15%</strong>;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:hotpink">width</strong>:<strong style="color:orange">500px</strong>;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:hotpink">display</strong>:<strong style="color:orange">none</strong>;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br><strong style="color:  blue">&lt;/style&gt;</strong><br><br><h3>CLASS SELECTOR : "."</h3><br><br>
+
+</div>
+<div id="tema3" class="tohide">
+	<h2><u>HTML Links</u></h2><br><br><strong style="color:  blue">&lt;a</strong> href=<em style="color:green">"https://migracode.openculturalcenter.org/es/student-application-form/"</em><strong style="color:  blue"> &gt;</strong> MIGRACODE APLICATION <strong style="color:  blue">&lt;/a&gt;</strong>
+		
+<div  style="margin-top: 25px"><a  href="https://migracode.openculturalcenter.org/es/student-application-form/" > MIGRACODE APLICATION </a>
+</div>
+		
+</div>
+<div id="tema32" class="tohide">
+	<h2><u>HTML Internal Links</u></h2><br><br><strong style="color:  blue">&lt;ul&gt;</strong><br>&nbsp;&nbsp;&nbsp;<strong style="color:  blue">&lt;li&gt;&lt;a</strong> href=<em style="color:green">"#aboutme"</em><strong style="color:  blue"> &gt;</strong> Sobre mi <strong style="color:  blue">&lt;/a&gt;&lt;/li&gt;</strong><br><strong style="color:  blue">&lt;/ul&gt;</strong>
+		
+<div  style="margin-top: 25px"><ul>
+   <li><a href="#aboutme" > Sobre mi </a></li>
+</ul>
+</div>
+		
+</div>
+<div id="tema33" class="tohide">
+	<h2><u>HTML Tables</u></h2><br><strong style="color:  blue">&lt;table&gt;&lt;thead&gt;</strong><br><strong style="color:  blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;&lt;th&gt;</strong>Country<strong style="color:  blue">&lt;/th&gt;&lt;/tr&gt;</strong><br><strong style="color:  blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;&lt;th&gt;</strong>Capital<strong style="color:  blue">&lt;/th&gt;&lt;/tr&gt;</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:  blue">&lt;/thead&gt;</strong><br><strong style="color:  blue">&lt;/table&gt;</strong>
+	
+	
+	<div >
+	<table style="margin-top: 50px"><thead>
+		<tr>
+			<th>Country</th>
+			<th>Capital</th>
+		
+		</tr>
+		
+		</thead>
+		<tbody>
+			<tr>
+				<td>Bolivia</td>
+				<td>La Paz</td>
+			
+			</tr>
+			<tr>
+				<td>España</td>
+				<td>Madrid</td>
+			
+			</tr>
+			<tr>
+				<td>Rusia</td>
+				<td>Moscú</td>
+			
+			</tr>
+		
+		</tbody>
+		
+		
+		</table>
+	</div>
+	
+</div>
+<div id="tema34" class="tohide">
+	<h2><u>HTML Comments</u></h2><br><br>
+	<strong style="color: gray">&lt;!-- Título del documento --&gt;</strong><br>
+		<strong style="color:  blue">&lt;title&gt;</strong> <em>Migracode Project</em> <strong style="color: blue">&lt;/title&gt;</strong><br><strong style="color: gray">&lt;!-- Título del capítulo --&gt;</strong><br><strong style="color:  blue">&lt;h1&gt;</strong><br><strong style="color: gray">&lt;!-- Párrafo --&gt;</strong><br> Don Quijote, Primera Parte: Capítulo I <strong style="color: blue">&lt;/h1&gt;</strong><br><strong style="color:  blue">&lt;p&gt;</strong> <p class="quijote">En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos</p> <strong style="color: blue">&lt;/p&gt;</strong>
+	
+	
+	</div>
+<div id="tema4" class="tohide">
+	<h2><u>CSS FONT-FAMILY</u></h2><br><br><strong style="color:  blue">&lt;style&gt;</strong><br><br>&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:  red">.resumencurso </strong> { <strong style="color:hotpink">font-family</strong>:<strong style="color:green">'Roboto', sans-serif</strong>;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br><strong style="color:  blue">&lt;/style&gt;</strong>
+	
+
+
+</div>
+<div id="tema41" class="tohide">
+	<h2><u>CSS FONT-SIZE</u></h2><br><br><strong style="color:  blue">&lt;style&gt;</strong><br><br>&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:  red">.resumencurso </strong> { <strong style="color:hotpink">font-size</strong>:<strong style="color:green">"16px"</strong>;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br><strong style="color:  blue">&lt;/style&gt;</strong>
+	
+
+
+</div>
+<div id="tema42" class="tohide">
+	<h2><u>CSS STYLES AND SHORTHAND</u></h2><br><br><strong style="color:  blue">&lt;style&gt;</strong><br><br>&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:  red">.resumencurso </strong> { <strong style="color:hotpink">font</strong>:<strong style="color:green">italic </strong><strong style="color:blue">13px</strong> fantasy;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br><strong style="color:  blue">&lt;/style&gt;</strong>
+	
+
+
+</div>
+<div id="tema0" class="tohide">SELECT AN ITEM FROM THE TABLE</div>
+
+
+	
+			
+			
+
+	
+	</div>
+		
+		
+		</div>
+	<div id="aboutme">
+		<div id="fotodeportada"><img alt="uyuni" style="border: #201850 solid 1px" src="https://www.eluniversal.com.mx/sites/default/files/2016/11/21/principal_destinos_hexagonos_salar_de_uyuni_bolivia.jpg" width="1000px" ></div>
+		
+	  
+		<img id="fotoperfil" src="https://scontent.fbcn9-1.fna.fbcdn.net/v/t1.0-9/12523177_1123935167640103_8218221434314170655_n.jpg?_nc_cat=105&_nc_sid=7aed08&_nc_oc=AQnuGTguL5h3gwnAC_b92CD4M4N1Mjbf8h_LmiuzRhY-ar-bs1VOzDFiL78GPjgNlrY&_nc_ht=scontent.fbcn9-1.fna&oh=e60739999cbb7498a112b4ba8c6a904b&oe=5EB7C6E8" alt="me">
+		<h3><font color="white">Alexei Soliz Rueda</font></h3>
+		<div id="banner"> <h6 onClick="info()" id="info">Information</h6><h6 onClick="bio()" id="bio">Biography</h6> </div>
+		
+		
+		<div id="iframe" class="bioclass"><iframe  src="https://drive.google.com/file/d/13vPojIy1ChBPcuw_CkZ-eg5tG_7iVeHQ/preview" width="135" height="180"></iframe>
+			<iframe src="https://drive.google.com/file/d/1ymK_c9oVtFoWS146unt6kc-yoanjPP3E/preview" width="180" height="135"></iframe>
+			<iframe src="https://drive.google.com/file/d/1Xvy34H0NFsqKrSScf_BawDvud3-s3qiE/preview" width="180" height="135"></iframe>
+			<img width="130" height="180" src="https://scontent.fbcn9-1.fna.fbcdn.net/v/t1.0-9/61399_4736470534909_1948959916_n.jpg?_nc_cat=103&_nc_sid=43edb5&_nc_oc=AQlkLJR_RRZmgM19_aexbfxC7MWFKFqmR2xaKXbja-TZqdMYzLkBqE_fAvJI6KswoSQ&_nc_ht=scontent.fbcn9-1.fna&oh=5b78c8b90fc6006ab26c3af462f68a00&oe=5EBAEEAA" alt="meandmybrother">
+		
+		
+		</div>
+		<div id="publicacion1" class="bioclass"><div id="cabecerapublicacion1"><img id="minifotoperfil" src="https://scontent.fbcn9-1.fna.fbcdn.net/v/t1.0-9/12523177_1123935167640103_8218221434314170655_n.jpg?_nc_cat=105&_nc_sid=7aed08&_nc_oc=AQnuGTguL5h3gwnAC_b92CD4M4N1Mjbf8h_LmiuzRhY-ar-bs1VOzDFiL78GPjgNlrY&_nc_ht=scontent.fbcn9-1.fna&oh=e60739999cbb7498a112b4ba8c6a904b&oe=5EB7C6E8" alt="me"> <h6>Alexei Soliz Rueda</h6><p>25 de febrero de 2020</p>
+			</div> <p id="coment">Recordando mi viaje a Madrid (2011).<br>Madrid trip with an unusual <em>"Spiderman".🕷️🕷️</em></p>
+			<div id="photo"><img alt="spiderfat" src="https://scontent.fbcn9-1.fna.fbcdn.net/v/t1.0-9/1487451_700585463308411_1772931935_n.jpg?_nc_cat=110&_nc_sid=05277f&_nc_oc=AQl1lHWY83hmkeTY5WhedwtMUnXlS8NAtlW7zqVVLuhmQR4Q7i3CGgL-R-IgQw24pLw&_nc_ht=scontent.fbcn9-1.fna&oh=3ea2ecdcd135de0226ee1e0ae23ef563&oe=5EEC2A22" width="569px" height="350px"> </div><form id="comentinput"><img id="minipic" src="https://scontent.fbcn9-1.fna.fbcdn.net/v/t1.0-9/12523177_1123935167640103_8218221434314170655_n.jpg?_nc_cat=105&_nc_sid=7aed08&_nc_oc=AQnuGTguL5h3gwnAC_b92CD4M4N1Mjbf8h_LmiuzRhY-ar-bs1VOzDFiL78GPjgNlrY&_nc_ht=scontent.fbcn9-1.fna&oh=e60739999cbb7498a112b4ba8c6a904b&oe=5EB7C6E8" alt="me"><input type="text" id="comentario" placeholder="Add your comment..."></form>
+		</div>
+		<div id="information" class="infoclass"><div id="infoheader"> <img alt="userlogo" src="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/dp8LigpKyOw.png"><h2>Information</h2></div><div id="navinfo"><ul><li id="selected">General information</li><li >Places where I've lived</li></ul> </div><div id="infocontent"><ul><li><img alt="unedlogo" width="40px" src="https://pbs.twimg.com/profile_images/1169911885522767874/GT6Bvc0-_400x400.jpg"> Estudia el Grado de Economía en UNED</li><li> <img width="40px" alt="bcnlogo" src="https://images.adsttc.com/media/images/5cff/5ec5/284d/d16d/6a00/1111/medium_jpg/1.jpg?1560239805">Vive en Barcelona</li></ul> </div> <div id="contactinfo"> <ul><li>31 de marzo de 1994</li><li>+ 34 601 426 610</li><li>alexsr94@gmail.com</li></ul>  </div>
+		
+		</div>
+		
+		
+		
+		</div>
+
+<div id="calculadorafiscal"> <h1>Calculadora fiscal</h1><div><div id="boxes"><div class="display"><h4>Total ingresos</h4><p id="numero1">€</p></div><div class="display"><h4>Total gastos</h4><p id="numero2">€</p></div><form>
+	<div id="datosfactura"><select id="ingresos" >
+  <option value="ingresos">Ingresos</option>
+  <option value="gastos">Gastos</option>
+</select><div><label for="ibase">Importe Base €</label><br><input onChange="calciva()" placeholder="Importe Base" type="number" id="ibase" name="ibase"></div><div><label for="iva">IVA € (21%)</label><br><input placeholder="IVA" type="number" id="iva" name="iva"></div><button type="button" id="enviar" onClick="agregarfactura()">Guardar factura</button>
+	
+	
+	</div>
+	</form>
+	<div id="ringresos" > 
+	<h3>Ingresos</h3>
+	<table  id="tingresos">
+                            <tr> 
+                               
+                                <th> 
+                                    <p>Importe Base</p>
+                                </th>
+                                <th> 
+                                    <p>IVA</p>
+                                </th>
+                                <th> 
+                                    <p>Total factura</p>
+                                </th>
+                                
+                            </tr>
+		</table>
+	
+	
+	</div>
+	<div id="rgastos" > 
+	<h3>Gastos</h3>
+	<table  id="tgastos">
+                            <tr> 
+                               
+                                <th> 
+                                    <p>Importe Base</p>
+                                </th>
+                                <th> 
+                                    <p>IVA</p>
+                                </th>
+                                <th> 
+                                    <p>Total factura</p>
+                                </th>
+                                
+                            </tr>
+		</table>
+	
+	
+	</div></div>
+
+
+</div>
+
+		
+		
+
+
+</div>
+
+		
+	
+	
+	
+	
+	
+</body>
+</html>
